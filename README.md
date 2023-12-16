@@ -1,6 +1,10 @@
 # Global Earthquakes
 
-A react app to visualize an earthquake dashboard based on the time preferences
+A react app to visualize an earthquake dashboard based on the time preferences. There are 4 charts:
+- Map chart
+- Bar Chart (Magnitude Calculation by Each Group)
+- Donut Chart (Significant Level of the Earthquake)
+- Line Chart (Earthquake Occurence based on Preference Date)
 
 ## Run the project
 
