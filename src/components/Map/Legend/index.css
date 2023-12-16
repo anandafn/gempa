@@ -27,3 +27,20 @@
   margin-right: 8px;
   opacity: 0.7;
 }
+
+.charts {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.chart-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

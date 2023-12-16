@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import { Map, Navbar } from './components';
 import queryClient from './queryClient';
+import AllChartVisualization from './components/AllChart';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <QueryClientProvider client={queryClient}>
         <Navbar />
         <Map />
+        <AllChartVisualization />
       </QueryClientProvider>
     </>
   );
